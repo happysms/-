@@ -17,7 +17,7 @@ mk = MarketDB.MarketDB()
 
 stocks =mk.get_comp_info()
 
-slack = Slacker('xoxb-1624703975297-1635919994032-u8mXXriAtoC54fcpFnlM0knE')
+slack = Slacker('!!자신의 슬랙 API 토큰!!')
 
 checkList = []  # 매수 종목 체크 
 idx = 1
